@@ -1,0 +1,37 @@
+.ogulne {
+    border: solid red 1px;
+    margin: 5px;
+    padding: 5px;
+    position: fixed;
+}
+.cont1, .cont2, .cont3, .cont4, .cont5 {
+    align-items: left;
+    border-right: 35px;
+    width: 33%;
+    margin-left: 5px;
+}
+p {
+    border: dotted blue 1px;
+    border-radius: 10px;
+    color: gray;
+    padding: 4px;
+}
+.cont1, .cont2, .cont3, .cont4 {
+    float: left;
+}
+.cont4 {
+    margin-bottom: 15px;
+}
+.cont5 {
+    float: right;
+    margin-bottom: 15px;
+}
+button {
+    background-color: #67AD5B;
+    border-color: #67AD5B;
+    height: 40px;
+    width: 86px;
+    font-size: 16px;
+    color: white;
+    border: 0px;
+}
