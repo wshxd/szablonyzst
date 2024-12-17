@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+.baner {
+    text-align: center;
+    background-color:  #63b03c;
+    color: white;
+    font-family: Arial;
+    font-size: 300%;
+    font-variant: small-caps;
+}
+.panel_lewy {
+    width: 20%;
+    height: 500px;
+    background-color:  #63b03c;
+    color: white;
+    float: left;
+}
+.panel_prawy {
+    width: 80%;
+}
+.stopka {
+    color: white;
+    background-color:  #63b03c;
+    text-align: center;
+    width: 100%;
+    float: right;
+}
+a {
+    color: white;
+}
+ul {
+    list-style-type: square;
+}
+.kwadratprawy, .koloprawy {
+    float: left;
+    padding-top: 10px;
+}
+.koloprawy {
+    padding-left: 50px;
+}
+.koloprawyXDXD {
+    visibility: hidden;
+}
+.kwadratprawyXDXD {
+    visibility: hidden;
+}
+.peter:hover + img{
+    visibility: visible;
+}
+.lois:hover + img{
+    visibility: visible;
+}
+#stewie {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
